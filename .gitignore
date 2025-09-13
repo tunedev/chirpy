@@ -1,0 +1,56 @@
+out
+# Go - Binaries and Artifacts
+# -------------------------------------------------------------------
+# Compiled executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# This is the name of your project's binary.
+# Replace 'chirpy' with your actual binary name.
+chirpy
+
+# Test artifacts
+*.test
+*.out
+coverage.out
+
+# Dependency directory (if you are not committing vendors)
+vendor/
+
+
+# Local Configuration
+# -------------------------------------------------------------------
+# Environment variables file. Contains secrets and should NEVER be committed.
+.env
+.env.local
+.env.*.local
+
+
+# IDEs and Editors
+# -------------------------------------------------------------------
+# VS Code
+.vscode/
+
+# JetBrains / GoLand
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# OS-specific files
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.[Dd]esktop.ini
